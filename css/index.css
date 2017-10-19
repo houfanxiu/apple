@@ -1,0 +1,622 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-16 10:24:41
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-18 19:29:03
+*/
+@import url('base.css');
+/* 头部 */
+header{
+	width: 100%;
+	height: 40px;
+	background: #444;
+}
+header main{
+	/* width: 976px; */
+	height: 100%;
+	/* background: pink; */
+	margin: 0 auto;
+}
+header a{
+	float: right;
+	color: #a8a8aa;
+	line-height: 40px;
+	font-size: 10px;
+}
+
+
+/* 导航 */
+
+nav{
+	width: 100%;
+	height: 44px;
+	background: #333;
+}
+
+nav ul{
+	/* width: 976px; */
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+
+}
+nav ul li a{
+	color: #fff;
+	font-size: 12px;
+	line-height: 44px;
+}
+
+
+
+/* banner */
+.banner{
+	width: 100%;
+	height: 580px;
+	background: #F9F0EB;
+	margin-bottom: 10px;
+}
+.banner1{
+	width: 100%;
+	height: auto;
+	background: #fafafa;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.biaoti{
+	width: 100%;
+	height: auto;
+	/* background: pink; */
+	padding-top: 65px;
+	text-align: center;
+}
+.biaoti h2{
+	font-weight: 600;
+}
+.biaoti h3{
+	margin: 6px auto;
+}
+.biaoti div{
+	margin: 0 auto;
+}
+.tu{
+	margin: 0 auto;
+}
+.tu1{
+	margin: 0  auto;
+}
+.tu2{
+	margin: 0  auto;
+}
+
+
+.fenlei{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.fenlei li{
+	box-sizing: border-box;
+	border-bottom: 12px solid #fff;
+	background: #FAFAFA;
+	float: left;
+	text-align: center;
+	overflow: hidden;
+}
+.fenlei li h4{
+	margin-top: 1.08em;
+	font-weight: 600;
+}
+.fenlei li h5{
+	font-weight: 400;
+}
+
+.bjt{
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.bjt1{
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.bjt2{
+	margin: 0 auto;
+	margin-top: 40px;
+}
+.bjt3{
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+
+
+
+
+footer{
+	background: #f2f2f2;
+}
+
+footer main{
+    margin: 0 auto;
+}
+footer main .top_row{
+    color: #555;
+    padding-top: 40px;
+    display: flex;
+}
+footer main .top_row .five{
+    width: 20%;
+    overflow: hidden;
+}
+footer main .top_row .five .up{
+    margin-top: 30px;
+}
+footer main .top_row .five .block h3{
+    color: #333333;
+    margin-bottom: 6px;
+    font-weight: 600;
+    font-size: 11px;
+    font-family: "D";
+    position: relative;
+}
+footer main .top_row .five .block ul li{
+    margin-bottom: 6px;
+}
+footer main .top_row .five .block ul li a{
+    color: #555555;
+    font-size: 10px;
+    font-family: "A";
+}
+footer main .top_row .five .block ul li a:hover{
+    text-decoration: underline;
+}
+footer main .bot_row{
+    padding: 34px 0 0px;
+    color: #888;
+}
+footer main .bot_row .shop{
+    padding: 8px 0;
+    border-bottom: 1px solid #d6d6d6;
+    font-size: 10px;
+    font-family: "C";
+}
+footer main .bot_row .shop a{
+    color: #0070c9;
+    font-size: 10px;
+    font-family: "C";
+}
+footer main .bot_row .locale{
+    float: right;
+    margin-top: 3px;
+    position: relative;
+    top: -3px;
+    z-index: 2;
+    white-space: nowrap;
+    padding: 5px 0;
+    font-size: 10px;
+}
+footer main .bot_row .locale a{
+    color: #555;
+    display: inline;
+    font-family: "C";
+    font-size: 10px;
+}
+footer main .bot_row .locale a:hover{
+    text-decoration: underline;
+}
+footer main .bot_row .locale a span{
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/16.png);
+    padding-right: 20px;
+    background-position: left center;
+    cursor: pointer;
+    float: left;
+    margin-top: 1px;
+}
+footer main .bot_row .legal{
+    position: relative;
+    top: 3px;
+    z-index: 1;
+}
+footer main .bot_row .legal .legal1,footer main .bot_row .legal .legal2{
+    margin-right: 30px;
+    float: left;
+    margin-top: 3px;
+    font-size: 10px;
+    font-family: "C";
+}
+footer main .bot_row .legal .legal2 a{
+    border-right: 1px solid #d6d6d6;
+    margin-right: 10px;
+    padding-right: 12px;
+    display: inline-block;
+    white-space: nowrap;
+    color: #555;
+    font-size: 10px;
+    font-family: "C";
+}
+footer main .bot_row .legal .legal2 a:nth-child(5){
+    border-right: none;
+}
+footer main .bot_row .legal .legal2 a:hover{
+    text-decoration: underline;
+}
+footer main .bot_row .bottom{
+    margin-top: 30px;
+    /* margin-bottom: 20px; */
+    color: #999;
+    font-size: 10px;
+    font-family: "A";
+}
+footer main .bot_row .bottom a{
+    color: #999;
+    font-size: 10px;
+    font-family: "D";
+}
+footer main .bot_row .bottom a:hover{
+    text-decoration: underline;
+}
+nav .dark{
+    display: none;
+}
+h3 + ul{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px){
+		header main{
+		width: 976px;
+	}
+		nav ul{
+		width: 976px;
+	}
+		.nav1{
+			display: block;
+		}
+		.nav2{
+			display: none;
+		}
+		.tu{
+		width: 561px;
+		height: 395px;
+		background: url('../img/iphone_8_large.jpg') no-repeat center;
+		background-size: 561px 395px;
+		}
+		.tu1{
+		width: 981px;
+		height: 207px;
+		background: url('../img/iphone_x_largetall.jpg') no-repeat center;
+		background-size: 981px 207px;
+		}
+		.tu2{
+		width: 997px;
+		height: 434px;
+		background: url('../img/watch_tall_large.jpg') no-repeat center;
+		background-size: 997px 434px;
+		}
+		.biaoti div{
+			width: 182px;
+			height: 72px;
+			background: url('../img/watch_series_3_large.png') no-repeat center;
+			background-size: 182px 72px;
+		}
+		.biaoti h2{
+		font-size: 56px;
+		}
+		.biaoti h3{
+		font-size: 25px;
+		}
+
+
+
+
+		.fenlei li{
+			width: 50%;
+			height: 580px;
+			box-sizing: border-box;
+			border-right: 12px solid #fff;
+		}
+		.fenlei li:nth-child(2n+1){
+			border-left: 12px solid #fff;
+		}
+		.fenlei li h4{
+			font-size: 48px;
+		}
+		.fenlei li h5{
+			font-size: 24px;
+		}
+
+
+
+		.bjt{
+			width: 516px;
+			height: 369px;
+			background: url('../img/ios_large.jpg') no-repeat center;
+			background-size: 516px 369px;
+		}
+		.bjt1{
+			width: 553px;
+			height: 392px;
+			background: url('../img/watchos_large.jpg') no-repeat center;
+			background-size: 553px 392px;
+		}
+		.bjt2{
+			width: 499px;
+			height: 292px;
+			background: url('../img/m-10-16_170823.png') no-repeat center;
+			background-size: 499px 292px;
+		}
+		.bjt3{
+			width: 499px;
+			height: 292px;
+			background: url('../img/macos_high_sierra_large.jpg') no-repeat center;
+			background-size: 499px 292px;
+		}
+
+
+
+		footer main{
+        width: 980px;
+	    }
+	    footer main .top_row .five{
+	        width: 20%;
+	    }
+	    footer main .top_row .five h3{
+	        cursor: default;
+	    }
+	    footer main .bot_row .bottom{
+	        border-bottom: 15px solid #F2F2F2;
+	    }
+}
+@media screen and (max-width: 1024px){
+		header main{
+			padding-right: 22px;
+		}
+		nav ul{
+		/* width: 976px; */
+		padding:0 22px;
+		}
+		.nav1{
+			display: block;
+		}
+		.nav2{
+			display: none;
+		}
+		.tu{
+		width: 549px;
+		height: 388px;
+		background: url('../img/iphone_8_medium.jpg');
+		background-size: 549px 388px;
+		}
+		.tu1{
+		width: 704px;
+		height: 148px;
+		background: url('../img/iphone_x_medium.jpg');
+		background-size: 704px 148px;
+		}
+		.tu2{
+		width: 794px;
+		height: 349px;
+		background: url('../img/watch_tall_medium.jpg');
+		background-size: 794px 349px;
+		}
+		.biaoti div{
+			width: 144px;
+			height: 56px;
+			background: url('../img/watch_series_3_medium.png') no-repeat;
+			background-size: 140px 56px;
+		}
+		.biaoti h2{
+		font-size: 44px;
+		}
+		.biaoti h3{
+		font-size: 22px;
+		}
+
+
+
+
+		.fenlei li{
+			width: 50%;
+			height: 490px;
+			box-sizing: border-box;
+			border-right: 12px solid #fff;
+			float: left;
+		}
+		.fenlei li:nth-child(2n+1){
+			border-left: 12px solid #fff;
+		}
+
+		.fenlei li h4{
+			font-size: 36px;
+		}
+		.fenlei li h5{
+			font-size: 21px;
+		}
+		.bjt{
+			width: 362px;
+			height: 261px;
+			background: url('../img/ios_medium.jpg') no-repeat center;
+			background-size: 362px 261px;
+		}
+		.bjt1{
+			width: 381px;
+			height: 270px;
+			background: url('../img/watchos_medium.jpg') no-repeat center;
+			background-size: 381px 270px;
+		}
+		.bjt2{
+			width: 381px;
+			height: 270px;
+			background: url('../img/trade_up_medium.jpg') no-repeat center;
+			background-size: 381px 270px;
+		}
+		.bjt3{
+			width: 332px;
+			height: 194px;
+			background: url('../img/macos_high_sierra_medium.jpg') no-repeat center;
+			background-size: 332px 194px;
+		}
+
+		 footer main .top_row .five{
+        width: 20%;
+        padding:0 24px;
+	    }
+	    footer main .bot_row{
+	        padding: 0 24px;
+	    }
+	    nav .dark{
+	        display: none;
+	    }
+	     footer main .bot_row .bottom{
+	        border-bottom: 15px solid #F2F2F2;
+	    }
+}
+@media screen and (max-width: 768px){
+		nav ul{
+		padding:0 22px;
+		}
+		.nav1{
+			display: none;
+		}
+		.nav2{
+			display: block;
+		}
+		.tu{
+		width: 267px;
+		height: 357px;
+		background: url('../img/iphone_8_small.jpg');
+		background-size: 267px 357px;
+		margin: 92px auto;
+		}
+		.tu1{
+		width: 167px;
+		height: 333px;
+		background: url('../img/iphone_x_small.jpg');
+		background-size: 167px 333px;
+		}
+		.tu2{
+		width: 302px;
+		height: 338px;
+		background: url('../img/watch_small.jpg');
+		background-size: 302px 338px;
+		}
+		.biaoti div{
+			width: 108px;
+			height: 46px;
+			background: url('../img/watch_series_3_small.png');
+			background-size: 108px 46px;
+		}
+		.biaoti h2{
+		font-size: 32px;
+		}
+		.biaoti h3{
+		font-size: 19px;
+		}
+
+
+
+		.fenlei li{
+			width: 100%;
+			height: 500px;
+			border-right: 0px solid #fff;
+		}
+		.fenlei li:nth-child(2n+1){
+			border-left: 0px solid #fff;
+		}
+
+		.fenlei li h4{
+			font-size: 32px;
+		}
+		.fenlei li h5{
+			font-size: 19px;
+		}
+
+		.bjt{
+			width: 420px;
+			height: 301px;
+			background: url('../img/ios_alt_small.jpg') no-repeat center;
+			background-size: 420px 301px;
+		}
+		.bjt1{
+			width: 339px;
+			height: 240px;
+			background: url('../img/watchos_small.jpg') no-repeat center;
+			background-size: 339px 240px;
+		}
+		.bjt2{
+			width: 339px;
+			height: 240px;
+			background: url('../img/trade_up_small.jpg') no-repeat center;
+			background-size: 339px 240px;
+		}
+		.bjt3{
+			width: 348px;
+			height: 203px;
+			background: url('../img/macos_high_sierra_small.jpg') no-repeat center;
+			background-size: 348px 203px;
+		}
+
+		 footer main .top_row{
+        display: flex;
+        flex-direction: column;
+	    }
+	    footer main .top_row .five{
+	        width: 100%;
+	        cursor: pointer;
+	    }
+	    
+	    footer main .top_row .five .block{
+	        padding: 12px 0;
+	        border-bottom: 1px solid #D6D6D6;
+	    }
+	    footer main .top_row .five ul{
+	        display: none;
+	    }
+	    footer main .top_row .five .block h3::after{
+	        content: '+';
+	        position: absolute;
+	        right: 10px;
+	        transition: all 0.5s ease;
+	        line-height: 100%;
+	    }
+	    footer main .top_row .five .up{
+	        margin-top: 0px;
+	    }
+	    footer main .bot_row .locale{
+	        left: -1px;
+	        padding-top: 5px;
+	        float: none;
+	    }
+	    footer main .bot_row .bottom{
+	        margin-top: 48px;
+	        border-bottom: 15px solid #F2F2F2;
+	    }
+} 
+
